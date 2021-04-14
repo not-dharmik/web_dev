@@ -1,0 +1,15 @@
+img{
+    width: 30%;    
+    float: left;
+    margin: 1.666%;
+}
+p{
+    margin: 1.66%;
+    width: 30%;
+    border-bottom: 2px #f1f1f1 solid;
+    font-size: 23px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: DM Mono;
+    padding-bottom: 15px;
+}

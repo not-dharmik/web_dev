@@ -1,0 +1,7 @@
+h1 {color: #83db30; border-color: purple; border-width: px; border-style: dotted; font-family: monospace;}
+h2 {color: rgba(200, 100, 80, .99); /*border: 5px dotted red;*/}
+h3 {color: rgba(236, 206, 34, 0.85);)}
+h4 {color: rgba(94, 2, 86, 0.75); background-color: salmon;}
+h5 {color: teal;}
+ul {color: firebrick;}
+body {background-color: pink;}

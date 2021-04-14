@@ -1,0 +1,24 @@
+body {
+    background-color: #232946;
+    font-family: monospace;
+}
+h1 {
+    color: #bae8e8;
+}
+ul {
+    color: #d43a51;
+    font-size: medium;
+}
+div {
+    background-color: #b8c1ec;
+}
+li {
+    /*border: 2px dotted #716040;*/
+}
+#special_li {
+    background-color: yellowgreen;
+}
+.Special {
+    text-decoration: line-through;
+    background-color: rgba(60, 70, 255, .85);
+}
