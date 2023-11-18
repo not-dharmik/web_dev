@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hostel Form</title>
+    <link rel="stylesheet" href="prac_form.css">
+</head>
+<body>
+
+    <form action="" class="content">
+        <div class="form_heading">
+            <h1>Hostel & Mess selection</h1>
+        </div>
+        <div class="form_body">
+            
+            <div class="std_detail">
+                <h2>Student details</h2>
+                <p>Name: <input type="text" name="fname" id="fname" required placeholder="Enter your name"> </p>
+                <p>Reg No: <input type="number" name="reg" id="reg" required placeholder="for eg. 20BCE0001"> </p>
+                <p>Address: <textarea name="address" id="address" cols="100" rows="8" required placeholder="Your address goes here..."></textarea></p>
+                <p>Postal Code: <input type="number" name="pincode" id="pincode" required placeholder="for eg. 390001"></p>   
+            </div>
+            
+            <div class="hostel">
+                <h2>Hostel selection</h2>
+                <fieldset>
+                    <legend>Bed Type:</legend>
+                    <p>
+                        <input type="radio" required name="bed_type" id="single"> 1-bed
+                        <input type="radio" required name="bed_type" id="double"> 2-bed
+                        <input type="radio" required name="bed_type" id="triple"> 3-bed
+                        <input type="radio" required name="bed_type" id="four"> 4-bed
+                        <input type="radio" required name="bed_type" id="six"> 6-bed
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Category</legend>
+                    <p>
+                        <input type="radio" name="category" id="AC" required> AC
+                        <input type="radio" name="category" id="NAC" required> NAC
+                    </p>
+                </fieldset>
+                
+                <h2>Mess</h2>
+                <fieldset>
+                    <legend>Type:</legend>
+                    <p>
+                        <input type="radio" name="mess" id="veg" required> Veg
+                        <input type="radio" name="mess" id="non_veg" required> Non-Veg
+                        <input type="radio" name="mess" id="special" required> Special
+                    </p>
+                </fieldset>
+                <p>
+                    <input type="submit" value="Submit">        
+                </p>
+            </div>
+        </div>
+    </form>
+    
+</body>
+</html>
