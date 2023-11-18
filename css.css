@@ -1,0 +1,27 @@
+body{
+    color: navy;
+    margin: 10px;
+}
+.heading{
+    text-transform: uppercase;
+    font-size: xx-large;
+    text-align: center;
+}
+div{
+    width: 48%;
+}
+
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+button{
+    width: 140px;
+    height: 23px;
+    background-color: orange;
+    color: white;
+    border: none;
+}
+
